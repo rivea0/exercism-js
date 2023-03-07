@@ -1,4 +1,3 @@
-export const twoFer = (name) => {
-    let who = name ? name : 'you';
-    return `One for ${who}, one for me.`;
+export const twoFer = (name = 'you') => {
+    return `One for ${name}, one for me.`;
 };
